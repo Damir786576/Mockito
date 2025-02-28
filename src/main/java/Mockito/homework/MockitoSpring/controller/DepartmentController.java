@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/department")
-public class DepartmentController {
+public class    DepartmentController {
 
     private final DepartmentService departmentService;
 
@@ -43,4 +43,3 @@ public class DepartmentController {
         return departmentService.getEmployeesByDepartments();
     }
 }
-
