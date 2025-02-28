@@ -9,3 +9,4 @@ class MockitoSpringApplicationTests {
 	void contextLoads() {
 	}
 }
+
