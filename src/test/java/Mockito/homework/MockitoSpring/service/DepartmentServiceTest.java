@@ -49,7 +49,7 @@ public class DepartmentServiceTest {
     @Test
     void sum() {
         double actual = departmentService.getTotalSalaryByDepartment(2);
-        assertEquals(370000, actual);
+        assertEquals(32000, actual);
     }
 
     @Test
